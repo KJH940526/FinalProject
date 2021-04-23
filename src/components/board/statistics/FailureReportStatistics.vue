@@ -302,8 +302,8 @@ export default {
 .secondTable{
     
     width:600px;
-    border-left: 1px;
-    border-bottom: 1px solid;
+    /* border-left: 1px;
+    border-bottom: 1px solid; */
     text-align:center;
     vertical-align: middle;
     height: 40px;
@@ -315,4 +315,17 @@ export default {
     height: 40px;
     background-color: #f6f7fb;
   }
+.groupbutton {
+  display: inline-block;
+  width: 130px;
+  border: 1px solid #0b6ad5;
+  line-height: 35px;
+  border-radius: 1px;
+  padding: 0px 10px;
+  margin-right: 15px;
+  font-size: 15px;
+  letter-spacing: 0px;
+  color: #0b6ad5;
+}
+  
 </style>
